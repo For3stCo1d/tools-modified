@@ -1,0 +1,25 @@
+{
+   "browser_action": {
+      "default_popup": "popup/index.html",
+      "default_icon": {
+        "16": "images/icon_16.png",
+        "32": "images/icon_32.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+      }
+    },
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png"
+   },
+   "description": "在html/js中查找有趣的路径",
+   "background": {
+      "scripts": ["background/background.js"]
+    },
+   "manifest_version": 2,
+   "name": "FindAllLinks-zh",
+   "permissions": [ "storage","activeTab","clipboardWrite" ],
+   "version": "0.3",
+   "author": "Sicarius"
+}
